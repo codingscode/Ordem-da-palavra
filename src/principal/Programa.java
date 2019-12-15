@@ -12,10 +12,10 @@ public class Programa {
 		System.out.println("Digite uma frase : ");
 		
 		try {
-			String[] vetor = sc.nextLine().split(" ");
-			System.out.println("Digite a ordem da palavra : ");
-			int posicao = sc.nextInt();
-			System.out.println(vetor[posicao]);
+		  String[] vetor = sc.nextLine().split(" ");
+		  System.out.println("Digite a ordem da palavra : ");
+		  int posicao = sc.nextInt();
+		  System.out.println(vetor[posicao]);
 		}
 		catch(ArrayIndexOutOfBoundsException e) {
 		  System.out.println("Posição inválida");
