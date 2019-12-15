@@ -18,14 +18,14 @@ public class Programa {
 			System.out.println(vetor[posicao]);
 		}
 		catch(ArrayIndexOutOfBoundsException e) {
-		  System.out.println("PosiÁ„o inv·lida");
+		  System.out.println("Posi√ß√£o inv√°lida");
 		}
 		catch(InputMismatchException e) {
 		  System.out.println("Erro de entrada");
 		}
 		
 		System.out.println("Fim do Programa");
-        sc.close();
+                sc.close();
 	}
 
 }
